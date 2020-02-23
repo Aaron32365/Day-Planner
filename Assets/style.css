@@ -1,0 +1,73 @@
+body{
+    background-color: #F3F3F3;
+    
+    font-family: 'Coda' ;
+}
+
+#main-container-header{
+    font-family: 'Inconsolata' ;
+    padding: 12px;
+    border-style: solid;
+    border-color: #2394EE;
+    border-top-left-radius: 12px;
+    border-right-color: #2394EE;
+    border-left-color: #2394EE;
+    border-top-color: #2394EE;
+    border-top-right-radius: 12px;
+    border-bottom-width: 5px;
+    text-align: center;
+    color: white;
+    background-color: #3CA9FF;
+}
+
+#upper-pad{
+    height: 80px;
+}
+
+#left{
+    border-style: solid;
+    border-bottom-left-radius: 24px;
+    border-color: #2394EE;
+    border-left-color: #2394EE;
+    border-bottom-color: #2394EE;
+    background-color: #3CA9FF;
+}
+#right{
+    border-style: solid;
+    border-bottom-right-radius: 24px;
+    border-color: #2394EE;
+    border-right-color: #2394EE;
+    border-bottom-color: #2394EE;
+    background-color: #3CA9FF;
+}
+
+#planDiv{
+    border-style: solid;
+    border-radius: 24px;
+}
+
+#today{
+    font-family: 'Coda' ;
+    margin: 46px;
+    text-align: center;
+    font-size: 3em;
+    border-style: solid;
+    border-radius: 86px;
+    border-color: #2394EE;
+    background-color: white;
+}
+
+#calenderContainer{
+    max-height: 328px;
+    overflow: scroll;
+    margin: 46px;
+    text-align: center;
+    font-size: 1.5em;
+    border-style: solid;
+    border-radius: 86px;
+    border-color: #2394EE;
+    background-color: white;
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
